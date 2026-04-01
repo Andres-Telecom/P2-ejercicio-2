@@ -35,13 +35,13 @@ public class Estudiante {
         }
     }
   public void mostrarDatos(){
-      System.out.printf("Nombre: "+nombre);
-      System.out.printf("Paralelo: "+paralelo);
-      System.out.printf("Cedula: "+cedula);
-      System.out.printf("Edad: "+edad);
+      System.out.println("Nombre: "+nombre);
+      System.out.println("Paralelo: "+paralelo);
+      System.out.println("Cedula: "+cedula);
+      System.out.println("Edad: "+edad);
 
-      for (int i=0; 1<notas.length; i++) {
-          System.out.printf("Materia "+(i+1)+ " notas "+notas[i]);
+      for (int i=0; i<notas.length; i++) {
+          System.out.println("Materia "+(i+1)+ " notas "+notas[i]);
       }
       System.out.printf("Promedio; "+promedio());
   }
